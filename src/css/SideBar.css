@@ -1,0 +1,79 @@
+@import url('../index.css');
+
+.sidebar {
+  width: fit-content;
+  height: 250vh;
+  background-color: var(--color-lilac);
+  border-right: solid 0.025rem var(--color-accent);
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  gap: 15rem;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.sidebar__logo {
+  width: 15rem;
+  height: 5rem;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar > * {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.side-bar__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content {
+  flex: 1;
+  padding: 2rem 4rem;
+  width: 100%;
+}
+
+.side-bar__link {
+  list-style: none;
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+.collapsed .sidebar {
+  display: none;
+}
+
+.collapsed .container {
+  flex-direction: row;
+}
+
+.collapsed .content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.hamburger-icon {
+  font-size: 1.5rem;
+  color: var(--color-accent);
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  margin-left: 15rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  
+}

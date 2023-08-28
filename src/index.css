@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --color-white: hsla(0, 0%, 100%, 1);
+  --color-whitesmoke: whitesmoke;
+  --color-backdrop: hsla(45, 17%, 95%, 1);
+  --color-black: hsla(0, 0%, 0%, 1);
+  --color-blue: hsla(204, 97%, 54%, 1);
+  --color-lightblue: hsla(208, 90%, 40%, 1);
+  --color-lightgrey: hsla(0, 0%, 97%, 1);
+
+  --color-babygrey: #ddd6f3;
+  --color-mint: hsla(172, 45%, 75%, 1);
+  --color-lilac-faded: hsla(227, 65%, 87%, 0.5);
+  --color-lilac: #c8d2f3;
+  --color-lilac-darker: hsla(230, 70%, 90%, 1);
+  --color-rust: hsla(22, 62%, 76%, 1);
+  --color-peach: #ec8c69;
+  --color-accent: #e66568d9;
+  --color-green300: hsla(159, 42%, 88%, 1);
+
+  --color-babyblue: hsla(206, 84%, 86%, 1);
+  --color-pink: hsla(284, 61%, 74%, 1);
+  --color-dark: hsla(0, 0%, 9%, 1);
+  --color-hilite: hsla(172, 95%, 18%, 1);
+
+  --color-dark: #00332a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  line-height: 1.5;
+  color: #121212;
+}
+
+body {
+  background-color: var(--color-lilac-faded);
+}
